@@ -1,15 +1,15 @@
 <?php
 
-namespace Shield\GitLab;
+namespace Shield\Skeleton;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Collection;
 use Shield\Shield\Contracts\Service;
 
 /**
- * Class GitLab
+ * Class Skeleton
  *
- * @package \Shield\GitLab
+ * @package \Shield\Skeleton
  */
 class Skeleton implements Service
 {

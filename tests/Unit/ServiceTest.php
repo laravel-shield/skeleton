@@ -1,21 +1,21 @@
 <?php
 
-namespace Shield\GitLab\Test\Unit;
+namespace Shield\Skeleton\Test\Unit;
 
 use PHPUnit\Framework\Assert;
 use Shield\Shield\Contracts\Service;
 use Shield\Testing\TestCase;
-use Shield\GitLab\Skeleton;
+use Shield\Skeleton\Skeleton;
 
 /**
  * Class ServiceTest
  *
- * @package \Shield\GitLab\Test\Unit
+ * @package \Shield\Skeleton\Test\Unit
  */
 class ServiceTest extends TestCase
 {
     /**
-     * @var \Shield\GitLab\Skeleton
+     * @var \Shield\Skeleton\Skeleton
      */
     protected $service;
 
